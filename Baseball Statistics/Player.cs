@@ -16,8 +16,9 @@ namespace Baseball_Statistics
         private DateTime playerDob;
         private string playerCity;
         private string playerTeam;
+        private int age;
         //constructor
-        public Player(string nFirstName, string nLastName, string nPosition, DateTime nPlayerDob, string nPlayerCity, string nPlayerTeam)
+        public Player(string nFirstName, string nLastName, string nPosition, DateTime nPlayerDob, string nPlayerCity, string nPlayerTeam, int nAge)
         {
             firstName = nFirstName;
             lastName = nLastName;
@@ -25,6 +26,7 @@ namespace Baseball_Statistics
             playerDob = nPlayerDob;
             playerCity = nPlayerCity;
             playerTeam = nPlayerTeam;
+            age = nAge;
         }
         //properties
         public string FirstName
@@ -93,6 +95,16 @@ namespace Baseball_Statistics
                 playerTeam = value;
             }
         }
-
+        public int Age
+        {
+            get
+            {
+                return age;
+            }
+            set
+            {
+                age = value;
+            }
+        }
     }
 }
