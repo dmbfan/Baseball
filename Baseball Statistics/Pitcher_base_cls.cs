@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Baseball_Statistics
 {
-    class Pitcher_base_cls
+    class Pitcher_base_cls : Player
     {
     }
 }
