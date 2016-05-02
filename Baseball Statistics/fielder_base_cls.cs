@@ -8,7 +8,8 @@ namespace Baseball_Statistics
 {
     class Fielder_base_cls : Player
     {
-       
+       //Class for standard stats for hitters.
+        //Variables
         private int games;
         private int plateAppearnces;
         private int atBats;
