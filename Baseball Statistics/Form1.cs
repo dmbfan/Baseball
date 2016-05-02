@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace Baseball_Statistics
 {
-    public partial class Form1 : Form
+    public partial class Search : Form
     {
-        public Form1()
+        public Search()
         {
             InitializeComponent();
+        }
+
+        private void Search_Load(object sender, EventArgs e)
+        {
+          
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

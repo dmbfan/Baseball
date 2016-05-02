@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Baseball_Statistics
 {
-    class Fielder_base_cls : Player
+    class Fielder_base_cls 
     {
        
         private int games;
@@ -37,7 +37,7 @@ namespace Baseball_Statistics
         public Fielder_base_cls(int ngames, int nplateAppearences, int nAtBats, int nRuns, int nHits, int nDoubles, int nTriples, int nHomeRuns, int nRunsBattedIn,
             int nStolenBases, int nCaughtStealing, int nBasesOnBalls, int nStrikeOuts, int nBattingAverage, int nOnBasePercentage, int nSluggingPercentage,
             int nOps, int nOpsPlus, int nTotalBases, int nGroundDoublePlays, int nHitByPitch, int nSacrificeFly, int nIntentionalBasesOnBalls)
-            : base(string nFirstName, string nLastName, string nPosition, DateTime nPlayerDob, string nPlayerCity, string nPlayerTeam, int nAge)
+            //: base(string nFirstName, string nLastName, string nPosition, DateTime nPlayerDob, string nPlayerCity, string nPlayerTeam, int nAge)
 
         {
             games = ngames;
@@ -315,4 +315,4 @@ namespace Baseball_Statistics
        
   }
 
-}
+
