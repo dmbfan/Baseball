@@ -10,13 +10,13 @@ namespace Baseball_Statistics
     {
         //creating base class for just normal player to inherit into for other classes.
         //Don't believe I will need any more info to construct at this time.
-        private string firstName;        
-        private string lastName;
-        private string position;
-        private DateTime playerDob;
-        private string playerCity;
-        private string playerTeam;
-        private int age;
+        protected string firstName;        
+        protected string lastName;
+        protected string position;
+        protected DateTime playerDob;
+        protected string playerCity;
+        protected string playerTeam;
+        protected int age;
         //constructor
         public Player(string nFirstName, string nLastName, string nPosition, DateTime nPlayerDob, string nPlayerCity, string nPlayerTeam, int nAge)
         {
@@ -27,6 +27,11 @@ namespace Baseball_Statistics
             playerCity = nPlayerCity;
             playerTeam = nPlayerTeam;
             age = nAge;
+        }
+
+        public Player()
+        {
+            // TODO: Complete member initialization
         }
         //properties
         public string FirstName
