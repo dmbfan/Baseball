@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="fielder_base_cls.cs" />
+    <Compile Include="Fielding.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
