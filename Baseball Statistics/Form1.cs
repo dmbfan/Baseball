@@ -26,5 +26,11 @@ namespace Baseball_Statistics
         {
 
         }
+
+        private void btnPosition_Click(object sender, EventArgs e)
+        {
+            PositionSearch PosSearch = new PositionSearch();
+            PosSearch.Show();
+        }
     }
 }

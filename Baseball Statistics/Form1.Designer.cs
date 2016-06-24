@@ -131,6 +131,7 @@
             this.btnPosition.TabIndex = 6;
             this.btnPosition.Text = "Position";
             this.btnPosition.UseVisualStyleBackColor = true;
+            this.btnPosition.Click += new System.EventHandler(this.btnPosition_Click);
             // 
             // btnStat
             // 
